@@ -1,0 +1,1 @@
+console.log("GG's Pet Shop site loaded!");
