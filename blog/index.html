@@ -2,87 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GG's Pet Store Blog</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Playfair Display', serif;
-      background-color: #000;
-      color: gold;
-    }
-    header {
-      padding: 2rem;
-      text-align: center;
-      background-color: #111;
-      border-bottom: 2px solid red;
-    }
-    header h1 {
-      font-size: 3rem;
-      margin: 0;
-      color: gold;
-    }
-    .container {
-      display: grid;
-      gap: 2rem;
-      padding: 2rem;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    }
-    .post {
-      background-color: #111;
-      border: 2px solid gold;
-      padding: 1.5rem;
-      border-radius: 1rem;
-      box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
-      transition: transform 0.3s;
-    }
-    .post:hover {
-      transform: scale(1.02);
-    }
-    .post h2 {
-      color: red;
-      font-size: 1.5rem;
-    }
-    .post p {
-      color: #ccc;
-    }
-    .post a {
-      color: gold;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      background-color: #111;
-      color: #aaa;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GG's Pet Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>GG's Luxe Pup Blog</h1>
-    <p style="color:#ccc;">Style. Safety. Pet Royalty.</p>
+    <div class="branding">
+      <h1>GG's Pet Store</h1>
+      <p class="tagline">Luxury • Eco-Friendly • Pet Royalty</p>
+    </div>
+    <nav>
+      <a href="#">Shop</a>
+      <a href="#">Blog</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
   </header>
 
-  <div class="container">
-    <div class="post">
-      <h2>🚨 Nighttime Safety for Dogs</h2>
-      <p>Keep your pup safe during low-light walks with our reflective harness and LED collar. Comfort + Visibility = Peace of Mind.</p>
-      <a href="https://shop.ggspetstore.com/products/led-collar">Shop Now →</a>
+  <main class="products-section">
+    <div class="product-card">
+      <img src="https://i.postimg.cc/zB7CTS4k/3.png" alt="Pet Bed">
+      <h2>Luxury Plush Pet Bed</h2>
+      <a href="#">Shop Now</a>
     </div>
-    <div class="post">
-      <h2>💎 The Luxe Look: Matching Gold Harness Sets</h2>
-      <p>Let your pup strut in glam with gold-trimmed harnesses made for royalty. Fits all breeds and sizes.</p>
-      <a href="https://shop.ggspetstore.com/products/gold-harness">Shop Now →</a>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/gjyrc1gc/3-1.png" alt="Water Bottle">
+      <h2>3-in-1 Travel Bottle</h2>
+      <a href="#">Shop Now</a>
     </div>
-    <div class="post">
-      <h2>🌿 Eco-Chic Pet Essentials</h2>
-      <p>Stylish and sustainable – from plush beds to biodegradable poop bags. Your pet's pawprint can be green too.</p>
-      <a href="https://shop.ggspetstore.com/blogs/news/eco-pet-care">Read More →</a>
+    <div class="product-card">
+      <img src="https://i.postimg.cc/QxV3S2r2/2.png" alt="Harness">
+      <h2>Reflective Harness</h2>
+      <a href="#">Shop Now</a>
     </div>
-  </div>
+  </main>
 
   <footer>
     &copy; 2025 GG's Pet Store. All rights reserved.
