@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #e6f0e9; /* Light sage green */
+  color: #222;
+}
+
+header {
+  background: linear-gradient(to right, #ffecf0, #ffe68a); /* Pink to gold */
+  padding: 1.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.branding h1 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #0a3d2e; /* Deep green */
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #444;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #0a3d2e;
+  font-weight: bold;
+}
+
+.products-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 2px solid #ffd700; /* gold */
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.product-card h2 {
+  color: #ff69b4; /* Pink accent */
+  margin: 1rem 0 0.5rem;
+}
+
+.product-card a {
+  background-color: #ff69b4;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+footer {
+  background-color: #ffecf0;
+  padding: 1.5rem;
+  text-align: center;
+  color: #444;
+  font-size: 0.9rem;
+}
